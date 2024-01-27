@@ -1,0 +1,147 @@
+/* .services-container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.services-box{
+    display: flex;
+    border: 1px solid black;
+}
+
+.bx{
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00abf0;
+}
+
+@media (max-width:767.98px){
+    .services-container{
+        flex-wrap: wrap;
+    }
+} */
+
+
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+.services-container .services-box {
+    flex: 1 1 3rem;
+    background: whitesmoke;
+    padding: 2rem 1rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s ease;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.services-container .services-box:hover {
+    border: 5px solid #00abf0;
+    transform: scale(1.01);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: #00abf0;
+}
+
+.services-box h3 {
+    font-size: 26px;
+}
+
+.services-box p {
+    font-size: 16px;
+    margin: 10px 0 30px;
+}
+
+.services-box p .moreText1 {
+    display: none;
+    text-shadow: none;
+    /* color: ; */
+}
+
+.services-box p .moreText1.show {
+    display: inline;
+}
+
+.services-box p .moreText2 {
+    display: none;
+    text-shadow: none;
+    /* color: #fff; */
+}
+
+.services-box p .moreText2.show {
+    display: inline;
+}
+
+.services-box p .moreText3 {
+    display: none;
+    text-shadow: none;
+    /* color: #fff; */
+}
+
+.services-box p .moreText3.show {
+    display: inline;
+}
+
+
+
+/* professional skills start */
+.progress-line.communication span {
+    width: 90%;
+}
+
+.progress-line.team-work span {
+    width: 80%;
+}
+
+.progress-line.project-management span {
+    width: 80%;
+}
+
+.progress-line.designing span {
+    width: 90%;
+}
+
+.progress-line.creativity span {
+    width: 85%;
+}
+
+
+.progress-line.communication span::after {
+    content: "90%";
+}
+
+.progress-line.team-work span::after {
+    content: "80%";
+}
+
+.progress-line.project-management span::after {
+    content: "88%";
+}
+
+.progress-line.designing span::after {
+    content: "90%";
+}
+
+.progress-line.creativity span::after {
+    content: "85%";
+}
+/* professional skills end */

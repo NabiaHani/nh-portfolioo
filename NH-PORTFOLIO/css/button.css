@@ -1,0 +1,35 @@
+/* *{
+    outline: 1px solid lime;
+} */
+
+
+
+a{
+    color: #00abf0;
+    border-radius: 50px;
+}
+
+.share a {
+    display: inline-block !important;
+    border: 1px solid #00abf0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 3px;
+}
+
+.share a:hover{
+color: #ffffff;
+background-color: #00abf0;
+}
+
+@media (max-width: 767.98px){
+    .share{
+    width: 100%;
+    text-align: center;
+    }
+}
